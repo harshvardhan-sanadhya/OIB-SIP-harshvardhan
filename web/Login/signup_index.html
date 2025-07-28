@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign-Up</title>
+  <link rel="stylesheet" href="/signup_style.css" />
+</head>
+<body>
+  <h1>Sign-Up Page</h1>
+
+  <!-- ✅ Proper form targeting server -->
+    <div class="container">
+      <!-- ✅ 'name' attributes are required for server to access values -->
+      <input type="text" name="username" placeholder="Username" class="inputs" required />
+      <input type="password" name="password" placeholder="Password" class="inputs" required />
+      <br />
+      <button type="submit" id="sign-up">Sign-Up</button>
+    </div>
+  </form>
+
+  <!-- ✅ Optional: link to login page -->
+  <p style="text-align: center; color: white; margin-top: 20px;">
+    Already have an account? <a href="/">Login</a>
+  </p>
+
+  <script src="/signup.js"></script>
+</body>
+</html>
